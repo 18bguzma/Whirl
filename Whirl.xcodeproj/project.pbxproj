@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		03517A3AFE439445FE992BE5 /* Pods_Whirl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B808D280740FD8372F91EFF /* Pods_Whirl.framework */; };
 		B80463421FD9A31D00AD350A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80463411FD9A31D00AD350A /* AppDelegate.swift */; };
-		B80463441FD9A31D00AD350A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80463431FD9A31D00AD350A /* ViewController.swift */; };
+		B80463441FD9A31D00AD350A /* SignInInitalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80463431FD9A31D00AD350A /* SignInInitalVC.swift */; };
 		B80463471FD9A31D00AD350A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B80463451FD9A31D00AD350A /* Main.storyboard */; };
 		B804634A1FD9A31D00AD350A /* Whirl.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B80463481FD9A31D00AD350A /* Whirl.xcdatamodeld */; };
 		B804634C1FD9A31D00AD350A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B804634B1FD9A31D00AD350A /* Assets.xcassets */; };
@@ -24,7 +24,7 @@
 		7B808D280740FD8372F91EFF /* Pods_Whirl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Whirl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B804633E1FD9A31D00AD350A /* Whirl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Whirl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B80463411FD9A31D00AD350A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B80463431FD9A31D00AD350A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B80463431FD9A31D00AD350A /* SignInInitalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInInitalVC.swift; sourceTree = "<group>"; };
 		B80463461FD9A31D00AD350A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B80463491FD9A31D00AD350A /* Whirl.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Whirl.xcdatamodel; sourceTree = "<group>"; };
 		B804634B1FD9A31D00AD350A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -85,7 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				B80463411FD9A31D00AD350A /* AppDelegate.swift */,
-				B80463431FD9A31D00AD350A /* ViewController.swift */,
+				B80463431FD9A31D00AD350A /* SignInInitalVC.swift */,
 				B80463581FD9DA0E00AD350A /* SignInManualViewController.swift */,
 				B80463451FD9A31D00AD350A /* Main.storyboard */,
 				B804634B1FD9A31D00AD350A /* Assets.xcassets */,
@@ -233,7 +233,7 @@
 			files = (
 				B80463591FD9DA0E00AD350A /* SignInManualViewController.swift in Sources */,
 				B804634A1FD9A31D00AD350A /* Whirl.xcdatamodeld in Sources */,
-				B80463441FD9A31D00AD350A /* ViewController.swift in Sources */,
+				B80463441FD9A31D00AD350A /* SignInInitalVC.swift in Sources */,
 				B80463421FD9A31D00AD350A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
