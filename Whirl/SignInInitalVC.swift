@@ -8,13 +8,15 @@
 
 import UIKit
 import SVProgressHUD
+import FacebookLogin
 
 class SignInInitalVC: UIViewController {
 
     override func viewDidLoad() {
-        super.viewDidLoad()
-        SVProgressHUD.setDefaultMaskType(.black)
-        SVProgressHUD.show(withStatus: "Loading Assets...")
+        let loginButton = LoginButton(readPermissions: [ .publicProfile ])
+        loginButton.center = view.center
+        
+        view.addSubview(loginButton)
         // Do any additional setup after loading the view, typically from a nib.
     }
 
