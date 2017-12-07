@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03517A3AFE439445FE992BE5 /* Pods_Whirl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B808D280740FD8372F91EFF /* Pods_Whirl.framework */; };
+		B80463421FD9A31D00AD350A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80463411FD9A31D00AD350A /* AppDelegate.swift */; };
+		B80463441FD9A31D00AD350A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80463431FD9A31D00AD350A /* ViewController.swift */; };
+		B80463471FD9A31D00AD350A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B80463451FD9A31D00AD350A /* Main.storyboard */; };
+		B804634A1FD9A31D00AD350A /* Whirl.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B80463481FD9A31D00AD350A /* Whirl.xcdatamodeld */; };
+		B804634C1FD9A31D00AD350A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B804634B1FD9A31D00AD350A /* Assets.xcassets */; };
+		B804634F1FD9A31D00AD350A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B804634D1FD9A31D00AD350A /* LaunchScreen.storyboard */; };
+		B80463571FD9A6C400AD350A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B80463561FD9A61800AD350A /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A6861C9822F0D46A431D742 /* Pods-Whirl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Whirl.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Whirl/Pods-Whirl.debug.xcconfig"; sourceTree = "<group>"; };
+		29AD7ACBA6A3ED2B3B9A7CBA /* Pods-Whirl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Whirl.release.xcconfig"; path = "Pods/Target Support Files/Pods-Whirl/Pods-Whirl.release.xcconfig"; sourceTree = "<group>"; };
+		7B808D280740FD8372F91EFF /* Pods_Whirl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Whirl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B804633E1FD9A31D00AD350A /* Whirl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Whirl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B80463411FD9A31D00AD350A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B80463431FD9A31D00AD350A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B80463461FD9A31D00AD350A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B80463491FD9A31D00AD350A /* Whirl.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Whirl.xcdatamodel; sourceTree = "<group>"; };
+		B804634B1FD9A31D00AD350A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B804634E1FD9A31D00AD350A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B80463501FD9A31D00AD350A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B80463561FD9A61800AD350A /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B804633B1FD9A31D00AD350A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03517A3AFE439445FE992BE5 /* Pods_Whirl.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46D5493E0B25560BB8BDC33D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B808D280740FD8372F91EFF /* Pods_Whirl.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF057D92CB9A264B47578F14 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A6861C9822F0D46A431D742 /* Pods-Whirl.debug.xcconfig */,
+				29AD7ACBA6A3ED2B3B9A7CBA /* Pods-Whirl.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B80463351FD9A31D00AD350A = {
+			isa = PBXGroup;
+			children = (
+				B80463401FD9A31D00AD350A /* Whirl */,
+				B804633F1FD9A31D00AD350A /* Products */,
+				AF057D92CB9A264B47578F14 /* Pods */,
+				46D5493E0B25560BB8BDC33D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B804633F1FD9A31D00AD350A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B804633E1FD9A31D00AD350A /* Whirl.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B80463401FD9A31D00AD350A /* Whirl */ = {
+			isa = PBXGroup;
+			children = (
+				B80463411FD9A31D00AD350A /* AppDelegate.swift */,
+				B80463431FD9A31D00AD350A /* ViewController.swift */,
+				B80463451FD9A31D00AD350A /* Main.storyboard */,
+				B804634B1FD9A31D00AD350A /* Assets.xcassets */,
+				B804634D1FD9A31D00AD350A /* LaunchScreen.storyboard */,
+				B80463501FD9A31D00AD350A /* Info.plist */,
+				B80463481FD9A31D00AD350A /* Whirl.xcdatamodeld */,
+				B80463561FD9A61800AD350A /* GoogleService-Info.plist */,
+			);
+			path = Whirl;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B804633D1FD9A31D00AD350A /* Whirl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B80463531FD9A31D00AD350A /* Build configuration list for PBXNativeTarget "Whirl" */;
+			buildPhases = (
+				F5E54F10DA6AC9E3DD27FDB7 /* [CP] Check Pods Manifest.lock */,
+				B804633A1FD9A31D00AD350A /* Sources */,
+				B804633B1FD9A31D00AD350A /* Frameworks */,
+				B804633C1FD9A31D00AD350A /* Resources */,
+				8D451D096A8840E500DFA388 /* [CP] Embed Pods Frameworks */,
+				0FFB0DAF2F9678657C4A3011 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Whirl;
+			productName = Whirl;
+			productReference = B804633E1FD9A31D00AD350A /* Whirl.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B80463361FD9A31D00AD350A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = WhirlDevTeam;
+				TargetAttributes = {
+					B804633D1FD9A31D00AD350A = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B80463391FD9A31D00AD350A /* Build configuration list for PBXProject "Whirl" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B80463351FD9A31D00AD350A;
+			productRefGroup = B804633F1FD9A31D00AD350A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B804633D1FD9A31D00AD350A /* Whirl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B804633C1FD9A31D00AD350A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B804634F1FD9A31D00AD350A /* LaunchScreen.storyboard in Resources */,
+				B80463571FD9A6C400AD350A /* GoogleService-Info.plist in Resources */,
+				B804634C1FD9A31D00AD350A /* Assets.xcassets in Resources */,
+				B80463471FD9A31D00AD350A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0FFB0DAF2F9678657C4A3011 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Whirl/Pods-Whirl-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D451D096A8840E500DFA388 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Whirl/Pods-Whirl-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Whirl/Pods-Whirl-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5E54F10DA6AC9E3DD27FDB7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Whirl-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B804633A1FD9A31D00AD350A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B804634A1FD9A31D00AD350A /* Whirl.xcdatamodeld in Sources */,
+				B80463441FD9A31D00AD350A /* ViewController.swift in Sources */,
+				B80463421FD9A31D00AD350A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B80463451FD9A31D00AD350A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B80463461FD9A31D00AD350A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B804634D1FD9A31D00AD350A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B804634E1FD9A31D00AD350A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B80463511FD9A31D00AD350A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B80463521FD9A31D00AD350A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B80463541FD9A31D00AD350A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A6861C9822F0D46A431D742 /* Pods-Whirl.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3JAM2Y3P95;
+				INFOPLIST_FILE = Whirl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WhirlDev.Whirl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B80463551FD9A31D00AD350A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29AD7ACBA6A3ED2B3B9A7CBA /* Pods-Whirl.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3JAM2Y3P95;
+				INFOPLIST_FILE = Whirl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WhirlDev.Whirl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B80463391FD9A31D00AD350A /* Build configuration list for PBXProject "Whirl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B80463511FD9A31D00AD350A /* Debug */,
+				B80463521FD9A31D00AD350A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B80463531FD9A31D00AD350A /* Build configuration list for PBXNativeTarget "Whirl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B80463541FD9A31D00AD350A /* Debug */,
+				B80463551FD9A31D00AD350A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B80463481FD9A31D00AD350A /* Whirl.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B80463491FD9A31D00AD350A /* Whirl.xcdatamodel */,
+			);
+			currentVersion = B80463491FD9A31D00AD350A /* Whirl.xcdatamodel */;
+			path = Whirl.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B80463361FD9A31D00AD350A /* Project object */;
+}
