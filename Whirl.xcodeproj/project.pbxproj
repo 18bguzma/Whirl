@@ -15,6 +15,7 @@
 		B804634C1FD9A31D00AD350A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B804634B1FD9A31D00AD350A /* Assets.xcassets */; };
 		B804634F1FD9A31D00AD350A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B804634D1FD9A31D00AD350A /* LaunchScreen.storyboard */; };
 		B80463571FD9A6C400AD350A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B80463561FD9A61800AD350A /* GoogleService-Info.plist */; };
+		B80463591FD9DA0E00AD350A /* SignInManualViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80463581FD9DA0E00AD350A /* SignInManualViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		B804634E1FD9A31D00AD350A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B80463501FD9A31D00AD350A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B80463561FD9A61800AD350A /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B80463581FD9DA0E00AD350A /* SignInManualViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInManualViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 			children = (
 				B80463411FD9A31D00AD350A /* AppDelegate.swift */,
 				B80463431FD9A31D00AD350A /* ViewController.swift */,
+				B80463581FD9DA0E00AD350A /* SignInManualViewController.swift */,
 				B80463451FD9A31D00AD350A /* Main.storyboard */,
 				B804634B1FD9A31D00AD350A /* Assets.xcassets */,
 				B804634D1FD9A31D00AD350A /* LaunchScreen.storyboard */,
@@ -228,6 +231,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B80463591FD9DA0E00AD350A /* SignInManualViewController.swift in Sources */,
 				B804634A1FD9A31D00AD350A /* Whirl.xcdatamodeld in Sources */,
 				B80463441FD9A31D00AD350A /* ViewController.swift in Sources */,
 				B80463421FD9A31D00AD350A /* AppDelegate.swift in Sources */,
