@@ -21,7 +21,7 @@
                                 <rect key="frame" x="125" y="381" width="124" height="30"/>
                                 <state key="normal" title="Have an Account?"/>
                                 <connections>
-                                    <segue destination="aUq-iz-Rke" kind="popoverPresentation" popoverAnchorView="6ia-6K-r85" id="OKC-Kh-w0K">
+                                    <segue destination="aUq-iz-Rke" kind="popoverPresentation" popoverAnchorView="6ia-6K-r85" id="bV1-Yg-t7C">
                                         <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
                                     </segue>
                                 </connections>
@@ -71,12 +71,16 @@
                         <viewLayoutGuide key="safeArea" id="Vvp-Ws-anV"/>
                     </view>
                     <navigationItem key="navigationItem" id="oTR-Ex-eco">
-                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="VvF-ae-BZ5"/>
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="g9T-hi-T7I">
+                            <connections>
+                                <action selector="cancelButtonTapped:" destination="eac-k2-y3h" id="3ca-AK-kZX"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wjN-X7-Uc8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="858" y="829"/>
+            <point key="canvasLocation" x="858" y="854"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Oej-LA-NBm">
