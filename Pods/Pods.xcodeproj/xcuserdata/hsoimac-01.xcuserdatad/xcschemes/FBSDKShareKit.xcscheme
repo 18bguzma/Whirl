@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DAF247482069AC31A0A62A46442614E5"
-               BuildableName = "Pods_Whirl.framework"
-               BlueprintName = "Pods-Whirl"
+               BlueprintIdentifier = "332F91393FB1DE033D370B4CEDDD5FCF"
+               BuildableName = "FBSDKShareKit.framework"
+               BlueprintName = "FBSDKShareKit"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -47,9 +47,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DAF247482069AC31A0A62A46442614E5"
-            BuildableName = "Pods_Whirl.framework"
-            BlueprintName = "Pods-Whirl"
+            BlueprintIdentifier = "332F91393FB1DE033D370B4CEDDD5FCF"
+            BuildableName = "FBSDKShareKit.framework"
+            BlueprintName = "FBSDKShareKit"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

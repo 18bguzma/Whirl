@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DAF247482069AC31A0A62A46442614E5"
-               BuildableName = "Pods_Whirl.framework"
-               BlueprintName = "Pods-Whirl"
+               BlueprintIdentifier = "5B5AC3C06B783F8674FDB4C0F900B56A"
+               BuildableName = "FBSDKLoginKit.framework"
+               BlueprintName = "FBSDKLoginKit"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -47,9 +47,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DAF247482069AC31A0A62A46442614E5"
-            BuildableName = "Pods_Whirl.framework"
-            BlueprintName = "Pods-Whirl"
+            BlueprintIdentifier = "5B5AC3C06B783F8674FDB4C0F900B56A"
+            BuildableName = "FBSDKLoginKit.framework"
+            BlueprintName = "FBSDKLoginKit"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
