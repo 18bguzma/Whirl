@@ -1,7 +1,7 @@
 //
 //  AppDelegate.swift
 //  Whirl
-//
+// ADDED .gitignore
 //  Created by HSOIMAC-01 on 12/7/17.
 //  Copyright © 2017 WhirlDevTeam. All rights reserved.
 //
