@@ -10,7 +10,7 @@ import UIKit
 import FirebaseCore
 import FirebaseAuth
 
-class EmailSignupViewController: UIViewController {
+class EmailSignupViewController: UIViewController, UITextFieldDelegate {
 
     @IBOutlet var usernameTextField: UITextField!
     @IBOutlet var emailTextField: UITextField!
@@ -21,12 +21,26 @@ class EmailSignupViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        emailTextField.delegate = self
+        passTextField.delegate = self
+        usernameTextField.delegate = self
+        self.hideKeyboardWhenTapAround()
+        
         // Do any additional setup after loading the view.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    @IBAction func signupButtonTapped(_ sender: Any) {
+        if passTextField.text == repassTextField.text {
+            Auth.auth().createUser(withEmail: emailTextField.text!, password: passTextField.text!, completion: { (user,error) in
+            if error != nil {
+                let signuperrorAlert = UIAlertController(title: "Signup Error", message: "\(error?.localizedDescription) Please try again later", preferredStyle: .alert)
+                signuperrorAlert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+                self.present(signuperrorAlert, animated: true, completion: nil)
+                return
+            }
+            })
+        }
     }
     
     @IBAction func cancelButtonTapped(_ sender: Any) {
@@ -43,4 +57,15 @@ class EmailSignupViewController: UIViewController {
     }
     */
 
+}
+
+extension UIViewController {
+    func hideKeyboardWhenTapAround() {
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(UIViewController.dismissKeyboard))
+        tap.cancelsTouchesInView = false
+        view.addGestureRecognizer((tap))
+    }
+    @objc func dismissKeyboard() {
+        view.endEditing(true)
+    }
 }

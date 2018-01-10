@@ -85,6 +85,11 @@
                                 <action selector="cancelButtonTapped:" destination="JNW-3D-KVc" id="F08-2F-P97"/>
                             </connections>
                         </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Sign Up" id="kzZ-4j-1w2">
+                            <connections>
+                                <action selector="signupButtonTapped:" destination="JNW-3D-KVc" id="Z6H-4D-hZq"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="emailTextField" destination="1SZ-BA-BBM" id="IJO-Jw-Pw5"/>
