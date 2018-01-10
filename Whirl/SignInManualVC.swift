@@ -11,6 +11,10 @@ import Firebase
 
 class SignInManualVC: UIViewController {
 
+    @IBOutlet var usernameField: UITextField!
+    @IBOutlet var passwordField: UITextField!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

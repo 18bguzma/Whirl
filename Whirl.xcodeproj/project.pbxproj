@@ -16,6 +16,7 @@
 		B804634F1FD9A31D00AD350A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B804634D1FD9A31D00AD350A /* LaunchScreen.storyboard */; };
 		B80463571FD9A6C400AD350A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B80463561FD9A61800AD350A /* GoogleService-Info.plist */; };
 		B80463591FD9DA0E00AD350A /* SignInManualVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80463581FD9DA0E00AD350A /* SignInManualVC.swift */; };
+		B8677BA12006761200D250F0 /* EmailSignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8677BA02006761200D250F0 /* EmailSignupViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		B80463501FD9A31D00AD350A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B80463561FD9A61800AD350A /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B80463581FD9DA0E00AD350A /* SignInManualVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInManualVC.swift; sourceTree = "<group>"; };
+		B8677BA02006761200D250F0 /* EmailSignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailSignupViewController.swift; sourceTree = "<group>"; };
 		BA73C73AFB31779CE072BEE6 /* Pods_Whirl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Whirl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -80,6 +82,7 @@
 				B80463431FD9A31D00AD350A /* SignInInitalVC.swift */,
 				B80463581FD9DA0E00AD350A /* SignInManualVC.swift */,
 				B80463451FD9A31D00AD350A /* Main.storyboard */,
+				B8677BA02006761200D250F0 /* EmailSignupViewController.swift */,
 				B804634B1FD9A31D00AD350A /* Assets.xcassets */,
 				B804634D1FD9A31D00AD350A /* LaunchScreen.storyboard */,
 				B80463501FD9A31D00AD350A /* Info.plist */,
@@ -183,8 +186,10 @@
 				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
 				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
 				"${BUILT_PRODUCTS_DIR}/FacebookShare/FacebookShare.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -196,8 +201,10 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookShare.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,6 +256,7 @@
 				B804634A1FD9A31D00AD350A /* Whirl.xcdatamodeld in Sources */,
 				B80463441FD9A31D00AD350A /* SignInInitalVC.swift in Sources */,
 				B80463421FD9A31D00AD350A /* AppDelegate.swift in Sources */,
+				B8677BA12006761200D250F0 /* EmailSignupViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

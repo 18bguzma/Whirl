@@ -7,6 +7,8 @@ pod 'Firebase/Core'
 pod 'FacebookCore'
 pod 'FacebookLogin'
 pod 'FacebookShare'
+pod 'Firebase/Auth'
+pod 'Firebase/Database'
 
 
   # Pods for Whirl
