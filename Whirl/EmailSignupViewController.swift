@@ -43,6 +43,10 @@ class EmailSignupViewController: UIViewController, UITextFieldDelegate {
         }
     }
     
+    func sendEmail() {
+        Auth.auth().signIn(withEmail: <#T##String#>, password: <#T##String#>, completion: <#T##AuthResultCallback?##AuthResultCallback?##(User?, Error?) -> Void#>)
+    }
+    
     @IBAction func cancelButtonTapped(_ sender: Any) {
         dismiss(animated: true, completion: nil)
     }
