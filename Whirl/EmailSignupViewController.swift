@@ -34,17 +34,57 @@ class EmailSignupViewController: UIViewController, UITextFieldDelegate {
         if passTextField.text == repassTextField.text {
             Auth.auth().createUser(withEmail: emailTextField.text!, password: passTextField.text!, completion: { (user,error) in
             if error != nil {
-                let signuperrorAlert = UIAlertController(title: "Signup Error", message: "\(error?.localizedDescription) Please try again later", preferredStyle: .alert)
+                let signuperrorAlert = UIAlertController(title: "Signup Error", message: "\(String(describing: error?.localizedDescription)) Please try again later", preferredStyle: .alert)
                 signuperrorAlert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
                 self.present(signuperrorAlert, animated: true, completion: nil)
                 return
             }
+                self.sendEmail()
+                self.dismiss(animated: true, completion: nil)
             })
+        } else {
+            let pswNotMatchAlert = UIAlertController(title: "OOPS!", message: "Your passwords do not match! Please re-enter your password!", preferredStyle: .alert)
+            pswNotMatchAlert.addAction(UIAlertAction(title: "OK", style: .default, handler: { (action) in
+                self.passTextField.text = ""
+                self.repassTextField.text = ""
+            }))
+            present(pswNotMatchAlert, animated: true, completion: nil)
         }
     }
     
     func sendEmail() {
-        Auth.auth().signIn(withEmail: <#T##String#>, password: <#T##String#>, completion: <#T##AuthResultCallback?##AuthResultCallback?##(User?, Error?) -> Void#>)
+        Auth.auth().signIn(withEmail: emailTextField.text!, password: passTextField.text!) { (user, error) in
+            if error != nil {
+                print("Error: \(String(describing:error!.localizedDescription))")
+                return
+            }
+            Auth.auth().currentUser?.sendEmailVerification(completion: { (error) in
+                if error != nil {
+                    let emailNOTSentAlert = UIAlertController(title: "Email Verification", message: "Verification email failed to send: \(String(describing: error?.localizedDescription))", preferredStyle: .alert)
+                    emailNOTSentAlert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+                    self.present(emailNOTSentAlert, animated: true, completion: nil)
+                } else {
+                    let emailSentAlert = UIAlertController(title: "Email Verificiation", message: "Verification email has successfully been sent! Please tap on the link in your email to verify your account!", preferredStyle: .alert)
+                    emailSentAlert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+                    self.present(emailSentAlert, animated: true, completion: {
+                        self.dismiss(animated: true, completion: nil)
+                        })
+                }
+                do {
+                    try Auth.auth().signOut()
+                } catch {
+                    //ERROR HANDLING
+                }
+            })
+        }
+    }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        if textField == emailTextField {
+            passTextField.becomeFirstResponder()
+        } else if textField == passTextField{
+            repassTextField.becomeFirstResponder()
+        }
     }
     
     @IBAction func cancelButtonTapped(_ sender: Any) {
