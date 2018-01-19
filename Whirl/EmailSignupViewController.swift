@@ -84,7 +84,10 @@ class EmailSignupViewController: UIViewController, UITextFieldDelegate {
             passTextField.becomeFirstResponder()
         } else if textField == passTextField{
             repassTextField.becomeFirstResponder()
+        } else {
+            textField.resignFirstResponder()
         }
+        return true
     }
     
     @IBAction func cancelButtonTapped(_ sender: Any) {
