@@ -17,6 +17,7 @@
 		B80463571FD9A6C400AD350A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B80463561FD9A61800AD350A /* GoogleService-Info.plist */; };
 		B80463591FD9DA0E00AD350A /* SignInManualVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80463581FD9DA0E00AD350A /* SignInManualVC.swift */; };
 		B8677BA12006761200D250F0 /* EmailSignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8677BA02006761200D250F0 /* EmailSignupViewController.swift */; };
+		B86A21B02018EF6E0017F6A5 /* SignInSuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86A21AF2018EF6E0017F6A5 /* SignInSuccessViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		B80463561FD9A61800AD350A /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B80463581FD9DA0E00AD350A /* SignInManualVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInManualVC.swift; sourceTree = "<group>"; };
 		B8677BA02006761200D250F0 /* EmailSignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailSignupViewController.swift; sourceTree = "<group>"; };
+		B86A21AF2018EF6E0017F6A5 /* SignInSuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInSuccessViewController.swift; sourceTree = "<group>"; };
 		BA73C73AFB31779CE072BEE6 /* Pods_Whirl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Whirl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -82,6 +84,7 @@
 				B80463431FD9A31D00AD350A /* SignInInitalVC.swift */,
 				B80463581FD9DA0E00AD350A /* SignInManualVC.swift */,
 				B80463451FD9A31D00AD350A /* Main.storyboard */,
+				B86A21AF2018EF6E0017F6A5 /* SignInSuccessViewController.swift */,
 				B8677BA02006761200D250F0 /* EmailSignupViewController.swift */,
 				B804634B1FD9A31D00AD350A /* Assets.xcassets */,
 				B804634D1FD9A31D00AD350A /* LaunchScreen.storyboard */,
@@ -254,6 +257,7 @@
 			files = (
 				B80463591FD9DA0E00AD350A /* SignInManualVC.swift in Sources */,
 				B804634A1FD9A31D00AD350A /* Whirl.xcdatamodeld in Sources */,
+				B86A21B02018EF6E0017F6A5 /* SignInSuccessViewController.swift in Sources */,
 				B80463441FD9A31D00AD350A /* SignInInitalVC.swift in Sources */,
 				B80463421FD9A31D00AD350A /* AppDelegate.swift in Sources */,
 				B8677BA12006761200D250F0 /* EmailSignupViewController.swift in Sources */,
