@@ -9,10 +9,11 @@
 import UIKit
 import FacebookLogin
 
+
 class SignInInitalVC: UIViewController {
 
     override func viewDidLoad() {
-        let loginButton = LoginButton(readPermissions: [ .publicProfile ])
+        let loginButton = LoginButton(readPermissions: [ .publicProfile, .email ])
         loginButton.center = view.center
         
         view.addSubview(loginButton)
