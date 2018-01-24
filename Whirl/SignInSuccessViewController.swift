@@ -27,7 +27,7 @@ class SignInSuccessViewController: UIViewController {
     @IBOutlet weak var uidlabelholder: UILabel!
     func pullUserID() {
         uidlabelholder.text = userID
-        print(userID)
+        print(userID!)
     }
     
     
