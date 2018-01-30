@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Whirl/EmailSignupViewController.swift"
-            timestampString = "538518797.47395"
+            timestampString = "539038729.158488"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "56"
@@ -26,7 +26,7 @@
                   moduleName = "Whirl"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/hsoimac-02/Desktop/Whirl/Whirl/EmailSignupViewController.swift"
-                  timestampString = "538518797.486717"
+                  timestampString = "539038729.373688"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "56"
@@ -41,12 +41,60 @@
                   moduleName = "Whirl"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/hsoimac-02/Desktop/Whirl/Whirl/EmailSignupViewController.swift"
-                  timestampString = "538518797.4908561"
+                  timestampString = "539038729.3776439"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "57"
                   endingLineNumber = "57"
                   offsetFromSymbolStart = "25">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Whirl/EmailSignupViewController.swift"
+            timestampString = "539038729.158577"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "sendEmail()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__ObjC.User&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Whirl.EmailSignupViewController.sendEmail() -&gt; ()"
+                  moduleName = "Whirl"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hsoimac-02/Desktop/Whirl/Whirl/EmailSignupViewController.swift"
+                  timestampString = "539038729.386005"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "78"
+                  endingLineNumber = "78"
+                  offsetFromSymbolStart = "1493">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 (Swift.Optional&lt;__ObjC.User&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Whirl.EmailSignupViewController.sendEmail() -&gt; ()"
+                  moduleName = "Whirl"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hsoimac-02/Desktop/Whirl/Whirl/EmailSignupViewController.swift"
+                  timestampString = "539038729.389129"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "78"
+                  endingLineNumber = "78"
+                  offsetFromSymbolStart = "3486">
                </Location>
             </Locations>
          </BreakpointContent>
