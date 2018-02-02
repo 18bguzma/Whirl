@@ -37,7 +37,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="14" y="74"/>
+            <point key="canvasLocation" x="142" y="72"/>
         </scene>
         <!--Sign Up-->
         <scene sceneID="eNa-YI-qaj">
@@ -155,7 +155,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fDJ-to-olc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1596" y="815.44227886056979"/>
+            <point key="canvasLocation" x="1596" y="816"/>
         </scene>
         <!--Sign In-->
         <scene sceneID="vgj-Hc-bT4">
@@ -246,6 +246,7 @@
                     <nil name="viewControllers"/>
                     <connections>
                         <segue destination="eac-k2-y3h" kind="relationship" relationship="rootViewController" id="XkR-VM-wYK"/>
+                        <segue destination="eih-ez-2ph" kind="presentation" identifier="showMainScreen" id="I8r-MB-z9P"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="r5p-7P-N6V" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -289,4 +290,7 @@
             <point key="canvasLocation" x="1596" y="73"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="I8r-MB-z9P"/>
+    </inferredMetricsTieBreakers>
 </document>

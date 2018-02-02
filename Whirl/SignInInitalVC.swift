@@ -8,6 +8,7 @@
 
 import UIKit
 import FacebookLogin
+import FBSDKLoginKit
 
 
 class SignInInitalVC: UIViewController {
@@ -15,9 +16,16 @@ class SignInInitalVC: UIViewController {
     override func viewDidLoad() {
         let loginButton = LoginButton(readPermissions: [ .publicProfile, .email ])
         loginButton.center = view.center
+       
         
+        //performSegue(withIdentifier: "showMainScreen", sender: nil)
         view.addSubview(loginButton)
+        
         // Do any additional setup after loading the view, typically from a nib.
+    }
+    
+    func loginButton(loginButton: FBSDKLoginButton!, didCompleteWithResult result: FBSDKLoginManagerLoginResult!, error: NSError!) {
+        
     }
 
     override func didReceiveMemoryWarning() {
