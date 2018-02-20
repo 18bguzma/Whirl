@@ -69,6 +69,7 @@ PODS:
   - SVProgressHUD (2.2.2)
 
 DEPENDENCIES:
+  - Bolts
   - FacebookCore
   - FacebookLogin
   - FacebookShare
@@ -97,6 +98,6 @@ SPEC CHECKSUMS:
   nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
   SVProgressHUD: 59b2d3dabacbd051576d21d32293ca7228dc18b0
 
-PODFILE CHECKSUM: c6e227c6ab8b992ea645e010b286184ac210a006
+PODFILE CHECKSUM: 3ba7b6a06ad8fcfc2e8c95928f39d14cdf1c560b
 
 COCOAPODS: 1.4.0.beta.2

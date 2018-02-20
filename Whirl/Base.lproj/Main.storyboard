@@ -26,18 +26,29 @@
                                     </segue>
                                 </connections>
                             </button>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gEQ-tq-QKP">
+                                <rect key="frame" x="67" y="217" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <segue destination="bpu-df-JJg" kind="embed" id="WIP-Y6-KiH"/>
+                                </connections>
+                            </containerView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="6ia-6K-r85" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FXH-pm-wCK"/>
                             <constraint firstItem="6ia-6K-r85" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="62.5" id="Vya-Yg-OJ2"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <segue destination="tVK-Jt-GeG" kind="presentation" identifier="fbLoggedIn" id="C7O-Ff-GcW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="142" y="72"/>
+            <point key="canvasLocation" x="57" y="74"/>
         </scene>
         <!--Sign Up-->
         <scene sceneID="eNa-YI-qaj">
@@ -246,7 +257,6 @@
                     <nil name="viewControllers"/>
                     <connections>
                         <segue destination="eac-k2-y3h" kind="relationship" relationship="rootViewController" id="XkR-VM-wYK"/>
-                        <segue destination="eih-ez-2ph" kind="presentation" identifier="showMainScreen" id="I8r-MB-z9P"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="r5p-7P-N6V" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -289,8 +299,22 @@
             </objects>
             <point key="canvasLocation" x="1596" y="73"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="AEW-TJ-fIc">
+            <objects>
+                <viewController id="bpu-df-JJg" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="e5A-pm-Ege">
+                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EIV-b1-Vpd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-838" y="45"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="I8r-MB-z9P"/>
+        <segue reference="C7O-Ff-GcW"/>
     </inferredMetricsTieBreakers>
 </document>
